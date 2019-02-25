@@ -1,7 +1,7 @@
 import { Product } from './product.model';
 import { Discharge } from './discharge.model';
 import { ShoppingList } from './shopping-list.model';
-import { Outgo } from "./outgo.models";
+import { Outgo } from "./outgo.model";
 
 export class Warehouse {
     public guid: string;
