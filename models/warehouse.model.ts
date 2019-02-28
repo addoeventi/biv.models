@@ -13,5 +13,6 @@ export class Warehouse {
     public discharges: Discharge[] = [];
     public shoppingList: ShoppingList;
     public history: Outgo[] = [];
+    public created: Date = new Date();
     public modified: Date;
 }

@@ -12,5 +12,6 @@ export declare class Warehouse {
     discharges: Discharge[];
     shoppingList: ShoppingList;
     history: Outgo[];
+    created: Date;
     modified: Date;
 }
